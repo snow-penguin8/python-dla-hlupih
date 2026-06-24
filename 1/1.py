@@ -1,14 +1,14 @@
-from random import randint,choice
-randnum = randint(0, 2)
-
-
-students = ["cat ", "ivan", "leha"]
-
-
-print(f"randchose:{choice(students)}")
-print(f"randnum:{students[randint(0, 2)]}")
-
-
+# from random import randint,choice
+# randnum = randint(0, 2)
+#
+#
+# students = ["cat ", "ivan", "leha"]
+#
+#
+# print(f"randchose:{choice(students)}")
+# print(f"randnum:{students[randint(0, 2)]}")
+#
+#
 
 #
 #
@@ -42,19 +42,19 @@ print(f"randnum:{students[randint(0, 2)]}")
 
 
 
-# x = True
-# while(x):
-#     try:
-#         print ("1 число")
-#         a = int(input())
-#         if (isinstance(a, int)):
-#             break
-#         else:
-#             continue
-#     except ValueError:
-#         print("ТВАРЬ ТУТ ЦИФРИ НАДО")
-#         x = True
-#
+x = True
+while(x):
+    try:
+        print ("1 число")
+        a = int(input())
+        if (isinstance(a, int)):
+            break
+        else:
+            continue
+    except ValueError:
+        print("ТВАРЬ ТУТ ЦИФРИ НАДО")
+        x = True
+
 # x = True
 # while(x):
 #
