@@ -38,22 +38,22 @@
 
 
 
-
-
-
-
-x = True
-while(x):
-    try:
-        print ("1 число")
-        a = int(input())
-        if (isinstance(a, int)):
-            break
-        else:
-            continue
-    except ValueError:
-        print("ТВАРЬ ТУТ ЦИФРИ НАДО")
-        x = True
+#
+#
+#
+#
+# x = True
+# while(x):
+#     try:
+#         print ("1 число")
+#         a = int(input())
+#         if (isinstance(a, int)):
+#             break
+#         else:
+#             continue
+#     except ValueError:
+#         print("ТВАРЬ ТУТ ЦИФРИ НАДО")
+#         x = True
 
 # x = True
 # while(x):

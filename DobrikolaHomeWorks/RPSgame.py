@@ -1,3 +1,5 @@
+from random import choice
+
 player = ["камень", "ножницы", "бумага"]
 x = True
 while (x):
@@ -9,7 +11,6 @@ while (x):
     else:
           continue
 
-from random import choice
 bot = choice(bot)
 print(f"bot:{bot}")
 
