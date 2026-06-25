@@ -3,7 +3,7 @@ from random import choice
 player = ["камень", "ножницы", "бумага"]
 x = True
 while (x):
-    bot = ["камень", "ножницы", "бумага"]
+    bot = ["булыжник", "ножницы", "бумага"]
     print("введи значение")
     a = (str(input()))
     if a in player:
